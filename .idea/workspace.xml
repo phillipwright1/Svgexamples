@@ -26,8 +26,8 @@
       <file leaf-file-name="Simpled3circle.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css styling/Simpled3circle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5486111" vertical-offset="141" max-vertical-offset="1005">
-              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.91992885" vertical-offset="443" max-vertical-offset="1050">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -307,7 +307,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18786693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -732,8 +732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css styling/Simpled3circle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5486111" vertical-offset="141" max-vertical-offset="1005">
-          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.91992885" vertical-offset="443" max-vertical-offset="1050">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="7" />
           <folding />
         </state>
       </provider>
