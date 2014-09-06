@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Canvas Drawing Rectangles</title>
+
+    <script type="text/javascript"><!--
+    window.addEventListener('load', function () {
+        // Step #1: Get the canvas element
+        var elem = document.getElementById('myCanvas');
+        if (!elem || !elem.getContext) {
+            return;
+        }
+
+//Step 2:
+        var context = elem.getContext('2d');
+
+
+        if (!context) {
+            return;
+        }
+//        // Step #3: INSERT YOUR CANVAS CODE HERE
+        var rectWidth=100, rectHeight=100;
+//// a red rectangle:
+//        context.fillStyle = "#f00";
+//        context.fillRect(0,0, rectWidth,rectHeight);
+//
+//// a green rectangle:
+//        context.fillStyle = "#0f0";
+//        context.fillRect(40,40, rectWidth,rectHeight);
+//
+//// a blue rectangle:
+//        context.fillStyle = "#00f";
+//        context.fillRect(80,80, rectWidth,rectHeight);
+        for(var d=0; d<100; d++) {
+            for (var i = 0; i < 100; i++) {
+
+                // 1) specify the upper-left vertex
+                var vertex = i * 9;
+                // 2) specify the width and height
+                var width =92;
+                var height = 90;
+                // 3) specify the color
+                if ((i + d) % 2 == 0) {
+                    context.fillStyle = "yellow";
+                }else {
+                    context.fillStyle = "blue";
+                }
+                context.fillRect(i * width, d*height, width, height);
+            }
+        }
+        var cow = function(x) {
+            return 2 * x;
+        }
+
+        elem.addEventListener("mousedown", mouseDown, false);
+
+        function mouseDown(event) {
+            console.log("Column: " + (Math.floor(event.pageX/rectWidth)+1));
+            console.log("Row: " + (Math.floor(event.pageY/rectHeight)+1));
+        }
+
+        elem.addEventListener("mouseover", mouseHover, false);
+        if (on.)
+
+        function mouseHover(event) {
+
+
+
+                    // 1) specify the upper-left vertex
+                    var vertex = i * 9;
+                    // 2) specify the width and height
+                    var width =92;
+                    var height = 90;
+                    // 3) specify the color
+                    if ((i + d) % 2 == 0) {
+                        context.fillStyle = color1;
+                    }else {
+                        context.fillStyle = color2;
+                    }
+                    context.fillRect(i * width, d*height, width, height);
+                }
+            }
+        }
+        //var dubble = double(2);
+       //alert(dubble(33)) ;
+    });
+
+
+    // --></script>
+</head>
+
+<body>
+<canvas id="myCanvas" width="800" height="800">
+</canvas>
+
+</body>
+</html>

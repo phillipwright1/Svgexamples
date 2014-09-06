@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <title>CSS Scale Transform</title>
+            <link href="Scale1.css” rel="stylesheet" type="text/css">
+        </head>
+        <body>
+        <div id="outer">
+            <img src="http://upload.wikimedia.org/wikipedia/commons/2/22/Turkish_Van_Cat.jpg" class="scaled"
+                 width="150" height="150"/>
+        </div>
+        <style>
+        img.scaled:hover {
+            -webkit-transform: scale(2) rotate(45deg) skewY(65deg) translate(100px, 50px);
+            transform: scale(2) rotate(45deg) skewY(65deg) translate(100px, 50px);
+
+            rotate effect: rotate(45deg);
+            rotate clockwise 45 degrees scale effect : scale(2);
+            make bigger(2x horizontal and vertical) Translate effect : translate(100px, 50px);
+            Move right 100px and down 50px skew effect : skew(10deg,30deg);
+            “ twist ” 56deg / 99deg(horizontal / vertical)
+        }
+        </style>
+        </body>
+</html>

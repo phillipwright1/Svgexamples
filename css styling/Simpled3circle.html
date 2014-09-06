@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+            <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        </head>
+    <body>
+        <script>
+            var width=800, height=500, radius=10;
+
+            var svg = d3.select("body")
+                    .append("svg")
+                    .attr("width", width)
+                    .attr("height",height);
+            var dataXValues=[10, 50, 20, 80,150,180,220];
+            var svg = d3.select("body")
+                    .append("svg")
+                    .attr("width",  width)
+                    .attr("height", height)
+
+                    var circles=svg.selectAll("circles")
+            .data(dataXValues)
+                    .enter()
+                    .append("circle")
+                    .attr("cx", function(d,i) { // what is d?
+                        return (d*5*Math.random());
+                    })
+                    .attr("cy", function(d,i) { // what is i?
+                        return (d*5*Math.random());
+                    })
+                    .attr("r",function(d,i) {
+                        return (20*Math.random());
+                    })
+
+                    .style("fill", "red")
+
+            .attr("r",function(d,i) {
+                return (20*Math.random());
+            })
+                    .style("fill", "red")
+
+            .on("mouseover",function(){
+                                 .delay(200)
+                        .ease("out-elastic",1,1)
+            });
+
+            circles.on("mouseover",function() {
+                d3.select(this)
+                        .transition()
+                        .duration(duration)
+                        .attr("transform", function() {
+                            var sx = 1+Math.random();
+                            var sy = 1-Math.random();
+                            return "scale("+sx+","+sy+")";
+                        })
+            })
+
+        </script>
+
+
+    </body>
+</html>

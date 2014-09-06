@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Linear Gradient Example</title>
+    <style>
+
+        #radial1 {
+            font-size: 24px;
+            width:  300px;
+            height: 300px;
+            position: absolute;
+            top: 300px;
+            left: 300px;
+            background: -webkit-gradient(
+            radial, 500 40%, 0, 301 25%, 360, from(red),
+            color-stop(3.05, red), color-stop(3.04, black),
+            color-stop(3.6, green), color-stop(3.8, blue),
+            to(#fff)
+        );
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div id="inner">
+    <div id="radial1">Text3</div>
+    <div id="radial2">Text2</div>
+    <div id="radial4">Text4</div>
+
+</div>
+</body>
+</html>
